@@ -2,6 +2,7 @@
 
 katz_deli = []
 
+<<<<<<< HEAD
 def line(katz_deli)
   counter = 1
   line_array = []
@@ -31,3 +32,33 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
+=======
+
+
+def line(katz_deli)
+    counter = 1
+    line_array = []
+    if katz_deli.empty?
+    puts "The line is currently empty."
+  
+    
+    elsif while katz_deli.length > 0
+      katz_deli.each do |customer|
+        line_array << "#{counter}. #{customer}"
+        counter += 1
+      
+      
+    
+   end
+   
+  end 
+  puts  "The line is currently: #{line_array.join(" ")}"
+  end
+  
+end
+
+#def take_a_number(katz_deli, name)
+  
+  #
+#end
+>>>>>>> 69f92dd8c784cd29ea292678127380df2acda00c
